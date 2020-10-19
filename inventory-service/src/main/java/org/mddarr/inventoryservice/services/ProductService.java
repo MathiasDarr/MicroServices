@@ -4,6 +4,7 @@ package org.mddarr.inventoryservice.services;
 
 import org.mddarr.inventoryservice.dto.Product;
 import org.mddarr.inventoryservice.repository.ProductRepository;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -19,6 +20,7 @@ public class ProductService {
         this.productRepository = productRepository;
     }
 
+    @Cacheable(value="product-cache",key="'ProductCache'+#brand+#productName")
     public Optional<Product> getProduct(String brand, String productName){
         return productRepository.get(brand, productName).map(ProductService::map);
     }
