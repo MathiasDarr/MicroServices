@@ -30,8 +30,9 @@ public class ProductsController {
     }
 
     @GetMapping("/{brand}/{productName}")
-    public ResponseEntity<Product> getProduct(@PathVariable String brand, @PathVariable String productName){
-        return ResponseEntity.of(productService.getProduct(brand, productName));
+    public ResponseEntity<Product> getProduct(@PathVariable String brand, @PathVariable String productName,
+                                              @RequestParam(name="isCacheable") boolean isCacheable ){
+        return ResponseEntity.of(productService.getProduct(brand, productName, isCacheable));
     }
 
 //    @GetMapping

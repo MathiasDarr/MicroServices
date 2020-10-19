@@ -4,6 +4,7 @@ package org.mddarr.inventoryservice.services;
 
 import org.mddarr.inventoryservice.dto.Product;
 import org.mddarr.inventoryservice.repository.ProductRepository;
+import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
@@ -20,8 +21,11 @@ public class ProductService {
         this.productRepository = productRepository;
     }
 
-    @Cacheable(value="product-cache",key="'ProductCache'+#brand+#productName")
-    public Optional<Product> getProduct(String brand, String productName){
+//    @CacheEvict(value="product-cache",key="'ProductCache'+#brand+#productName", beforeInvocation = true)
+//    @Cacheable(value="product-cache",key="'ProductCache'+#brand+#productName")
+
+    @Cacheable(value="ten-second-cache", key="'ProductCache'+#brand+#productName", condition = "#isCacheable != null && #isCacheable" )
+    public Optional<Product> getProduct(String brand, String productName, boolean isCacheable){
         return productRepository.get(brand, productName).map(ProductService::map);
     }
 
