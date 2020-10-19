@@ -1,0 +1,49 @@
+
+[
+  {
+    "customerId": "jerry@gmail.com",
+    "prices": "185.00,200.21",
+    "order_time": 20150120,
+    "order_status": "SHIPPING",
+    "orderID" : "20160630-28176",
+    "products": "Terra 65,Ariel AG 55",
+    "quantities": "1,1",
+    "brands": "North Face, Osprey"
+
+
+  },
+
+  {
+    "customerId": "jerry@gmail.com",
+    "prices": "185.00,200.21",
+    "order_time": 20150130,
+    "order_status": "SHIPPING",
+    "orderID": "20170609-25875",
+    "products": "Terra 65,Ariel AG 55",
+    "quantities": "1,1",
+    "brands": "North Face, Osprey"
+
+  },
+  {
+    "customerId": "alice@gmail.com",
+    "prices": "185.00,200.21",
+    "order_time": 20150135,
+    "order_status": "PROCESSING",
+    "orderID": "20171129-29970",
+    "products": "Terra 65,Ariel AG 55",
+    "quantities": "1,1",
+    "brands": "North Face, Osprey"
+
+
+  },
+  {
+    "customerId": "billy@gmail.com",
+    "prices": "185.00,200.21",
+    "order_time": 20150134,
+    "order_status": "PROCESSING",
+    "orderID": "20170608-10171",
+    "products": "Terra 65,Ariel AG 55",
+    "quantities": "1,1",
+    "brands": "North Face, Osprey"
+  }
+]

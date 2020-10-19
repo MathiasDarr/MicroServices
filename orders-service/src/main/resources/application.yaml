@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+aws:
+  region: us-west-2
+  dynamo:
+    endpoint:  http://localhost:8000/
+
