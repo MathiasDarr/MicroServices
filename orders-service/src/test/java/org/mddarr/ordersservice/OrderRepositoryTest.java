@@ -23,7 +23,7 @@ import static org.mockito.BDDMockito.*;
 
 
 public class OrderRepositoryTest extends AbstractIntegrationTest{
-
+//public class OrderRepositoryTest{
     private static final Logger log = LoggerFactory.getLogger(OrderRepositoryTest.class);
 
     @Autowired
@@ -51,7 +51,6 @@ public class OrderRepositoryTest extends AbstractIntegrationTest{
     public void getOrder_notFound() throws Exception {
 
     }
-
 
     @Test
     public void testGetOrderByID(){

@@ -133,8 +133,8 @@ public class OrdersTableUtils {
                     .withList("quantities", quantities)
                     .withList("brands", brands)
                     .withList("prices", prices)
-                    .withList("productNames",productStringsList)
-                    .withString("orderStatus", order_status);
+                    .withList("products",productStringsList)
+                    .withString("orderState", order_status);
             DateTime date = new DateTime(Long.valueOf(order_time * 1000L), DateTimeZone.UTC);
             try {
                 table.putItem(item);

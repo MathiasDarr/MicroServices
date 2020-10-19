@@ -19,8 +19,8 @@
 		<java.version>11</java.version>
 	</properties>
 	<modules>
-		<module>orders-service</module>
-		<module>payments-service</module>
+<!--		<module>orders-service</module>-->
+		<module>inventory-service</module>
 		<module>service-utilities</module>
 	</modules>
 

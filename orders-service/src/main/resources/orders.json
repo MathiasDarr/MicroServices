@@ -8,7 +8,7 @@
     "orderID" : "20160630-28176",
     "products": "Terra 65,Ariel AG 55",
     "quantities": "1,1",
-    "brands": "North Face, Osprey"
+    "brands": "North Face,Osprey"
 
 
   },
@@ -21,7 +21,7 @@
     "orderID": "20170609-25875",
     "products": "Terra 65,Ariel AG 55",
     "quantities": "1,1",
-    "brands": "North Face, Osprey"
+    "brands": "North Face,Osprey"
 
   },
   {
@@ -32,7 +32,7 @@
     "orderID": "20171129-29970",
     "products": "Terra 65,Ariel AG 55",
     "quantities": "1,1",
-    "brands": "North Face, Osprey"
+    "brands": "North Face,Osprey"
 
 
   },
@@ -44,6 +44,6 @@
     "orderID": "20170608-10171",
     "products": "Terra 65,Ariel AG 55",
     "quantities": "1,1",
-    "brands": "North Face, Osprey"
+    "brands": "North Face,Osprey"
   }
 ]

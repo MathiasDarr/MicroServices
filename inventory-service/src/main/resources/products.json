@@ -1,0 +1,85 @@
+[
+    {
+      "productID": "d77654bb-6adb-4d4a-b7b7-bfc7fd151a5e",
+      "productName": "Ariel Pro 65",
+      "price": 185.00,
+      "category": "Backpack",
+      "image_url": "https://dakobed-osprety.s3-us-west-2.amazonaws.com/arielpro65.jpg",
+      "brand": "Osprey"
+    },
+
+    {
+      "productID": "112078e5-896f-4486-a7bb-f38ec2f4fa93",
+      "productName": "Atmos 50",
+      "price": 165.00,
+      "category": "Backpack",
+      "brand": "Osprey",
+      "image_url": "https://dakobed-osprety.s3-us-west-2.amazonaws.com/atmos65.jpg"
+    },
+    {
+      "productName": "Archeon 45",
+      "price": 155.00,
+      "category": "Backpack",
+      "brand": "Osprey",
+      "productID": "a78cbc60-3b7e-429d-b25d-b059c0fb7fe4",
+      "image_url": "https://dakobed-osprety.s3-us-west-2.amazonaws.com/archeon45.jpg"
+    },
+
+  {
+    "productName": "Aether Pro 70",
+    "productID": "a1d6113d-fb64-497d-8f35-07c264ced18f",
+    "brand": "Osprey",
+    "price": 285.00,
+    "category": "Backpack",
+    "image_url": "https://dakobed-osprety.s3-us-west-2.amazonaws.com/aetherpro70.jpg"
+  },
+  {
+    "productID": "e6e74050-aaf9-4796-bbc7-a430551ca980",
+    "productName": "Archeon 70",
+    "price": 245.00,
+    "brand": "Osprey",
+    "category": "Backpack",
+    "image_url": "https://dakobed-osprety.s3-us-west-2.amazonaws.com/archeon70.jpg"
+  },
+  {
+    "productID": "1d1cc71f-0f3c-4ba2-804b-b2c5fcfc1a60",
+    "productName": "Aura  50",
+    "price": 145.00,
+    "brand": "Osprey",
+    "category": "Backpack",
+    "image_url": "https://dakobed-osprety.s3-us-west-2.amazonaws.com/aura50.jpg"
+  },
+  {
+    "productName": "Ariel  75",
+    "price": 290.00,
+    "brand": "Osprey",
+    "category": "Backpack",
+    "image_url": "https://dakobed-osprety.s3-us-west-2.amazonaws.com/ariel75.jpg",
+    "productID": "c99f8a59-4cef-4c81-a3ab-b214a25e7046"
+  },
+
+  {
+    "productName": "Ariel AG 55",
+    "price": 220.00,
+    "brand": "Osprey",
+    "category": "Backpack",
+    "image_url": "https://dakobed-osprety.s3-us-west-2.amazonaws.com/ariel55.jpg",
+    "productID": "f6736634-b6d3-4d8c-a6a8-037edac31c81"
+  },
+  {
+    "productName": "Terra 65",
+    "price": 133.99,
+    "brand": "North Face",
+    "category": "Backpack",
+    "image_url": "https://dakobed-osprety.s3-us-west-2.amazonaws.com/terra65.png",
+    "productID": "f6736634-b6d3-4d8c-a6a8-037edac31c87"
+  },
+  {
+    "productName": "Ogre 42+",
+    "price": 179.95,
+    "brand": "Mountain Equipment",
+    "category": "Backpack",
+    "image_url": "https://dakobed-osprety.s3-us-west-2.amazonaws.com/ogre42.jpeg",
+    "productID": "f6736634-b6d3-4d8c-a6a8-037edac31c88"
+  }
+]
