@@ -21,6 +21,7 @@
 	<modules>
 		<module>orders-service</module>
 		<module>payments-service</module>
+		<module>service-utilities</module>
 	</modules>
 
 	<repositories>
