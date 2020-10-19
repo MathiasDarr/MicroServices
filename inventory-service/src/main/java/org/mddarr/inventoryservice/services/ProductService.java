@@ -7,6 +7,7 @@ import org.mddarr.inventoryservice.repository.ProductRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
@@ -16,6 +17,10 @@ public class ProductService {
 
     public ProductService(ProductRepository productRepository){
         this.productRepository = productRepository;
+    }
+
+    public Optional<Product> getProduct(String brand, String productName){
+        return productRepository.get(brand, productName).map(ProductService::map);
     }
 
     public List<Product> fetchAllProducts() {

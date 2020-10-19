@@ -3,6 +3,7 @@ package org.mddarr.inventoryservice.controllers;
 
 import org.mddarr.inventoryservice.dto.Product;
 import org.mddarr.inventoryservice.services.ProductService;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -26,6 +27,11 @@ public class ProductsController {
     @GetMapping("/{brandID}")
     public List<Product> allProducts(@PathVariable String brandID) {
         return productService.fetchAllProductsByBrand(brandID);
+    }
+
+    @GetMapping("/{brand}/{productName}")
+    public ResponseEntity<Product> getProduct(@PathVariable String brand, @PathVariable String productName){
+        return ResponseEntity.of(productService.getProduct(brand, productName));
     }
 
 //    @GetMapping

@@ -18,6 +18,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 @Repository
 public class ProductRepository {
@@ -32,6 +33,12 @@ public class ProductRepository {
         this.amazonDynamoDB = db;
         this.mapper = new DynamoDBMapper(amazonDynamoDB);
     }
+
+    public Optional<ProductEntity> get(String brand, String productName){
+        ProductEntity entity = mapper.load(ProductEntity.class, brand, productName);
+        return Optional.ofNullable(entity);
+    }
+
 
     public List<ProductEntity> fetchAllProducts(){
         DynamoDBMapperConfig mapperConfig = new DynamoDBMapperConfig.Builder()
